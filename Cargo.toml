@@ -28,4 +28,4 @@ my_state = {path="../my_state"}
 tokio = { version = "1", features = ["full"] }
 url = "2.3.1"
 
-typesense = {git="https://github.com/typesense/typesense-rust", rev="be945effd06da4677cf6f200ceee28c1c2bd8eb8"}
+typesense = {git="https://github.com/typesense/typesense-rust", rev="be945effd06da4677cf6f200ceee28c1c2bd8eb8",features=["tokio-rt"]}
