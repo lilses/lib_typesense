@@ -19,7 +19,7 @@ reqwest = { version = "0.11", features = ["json"] }
 serde = { version = "1", features = ["derive"] }
 serde_json = "1"
 serde_repr = "0.1"
-sqlx = { version = "0.6", features = [ "runtime-tokio-native-tls" , "postgres", "runtime-actix-native-tls","chrono","bigdecimal" ] }
+sqlx = { version = "0.6", features = [ "runtime-tokio-native-tls" , "postgres", "runtime-actix-native-tls","chrono","bigdecimal", "sqlite" ] }
 
 tokio = { version = "1", features = ["full"] }
 tracing = { version = "0.1", features = ["log"] }
